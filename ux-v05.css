@@ -1,0 +1,112 @@
+/* Esami Molinette 0.5 — Sbobine design refinement. No emoji, no external icon packages. */
+.ui-icon{display:inline-block;width:20px;height:20px;flex-shrink:0;vertical-align:middle;stroke-width:1.8;pointer-events:none}
+.native-row-icon .ui-icon{width:23px;height:23px;color:#007aff}
+.brand-mark .ui-icon{width:21px;height:21px;color:white}
+.global-settings .ui-icon,.settings-gear .ui-icon{width:20px;height:20px}
+.study-action-icon .ui-icon{width:23px;height:23px;color:#007aff}
+.detail-symbol .ui-icon{width:19px;height:19px;color:#007aff}
+.search-wrap>.ui-icon,.search-wrap>span .ui-icon{height:19px;width:19px;color:#8a8a93}
+.tag-btn,.filter-favorite,.mini-favorite{display:inline-flex;align-items:center;justify-content:center}
+.tag-btn .ui-icon,.filter-favorite .ui-icon,.mini-favorite .ui-icon{width:18px;height:18px}
+.tag-btn[aria-pressed="true"],.mini-favorite:has(.ui-icon:only-child){color:#007aff}
+.filter-favorite.active,.filter-favorite[aria-pressed="true"]{color:#007aff;background:#eaf3ff}
+.icon-button{width:41px;height:41px;padding:0;display:inline-flex;align-items:center;justify-content:center}
+.option-select .radio .ui-icon{width:15px;height:15px;stroke-width:2.8}
+.option-source-correct{color:#26734e;font-size:12px}
+.mode-option strong{display:flex;align-items:center;gap:8px;font-size:14px}
+.mode-option strong .ui-icon{height:17px;width:17px;color:#007aff}
+.settings-active{overflow:hidden}
+/* The settings surface must be compact and steady when controls change. */
+.settings-head h2{margin:5px 0 4px}
+.settings-head p{max-width:380px}
+.settings-close .ui-icon{width:16px;height:16px}
+.pref-row strong{font-weight:640}
+.pref-row input[type="checkbox"]{flex-shrink:0;accent-color:#007aff}
+.pref-segments{display:grid;grid-template-columns:1fr 1fr;gap:6px}
+.pref-segments label{display:flex;align-items:center;gap:6px;padding:10px 9px;border:1px solid #e5e5eb;background:#f8f8fa;border-radius:9px}
+.pref-segments input{accent-color:#007aff}
+.pref-group{background:#fff;border:1px solid rgba(60,60,67,.13);padding:12px;margin:7px 0}
+.pref-detail{border:1px solid rgba(60,60,67,.14);border-radius:12px;background:#fff;margin-top:10px;overflow:hidden}
+.pref-detail summary{list-style:none;cursor:pointer;display:flex;align-items:center;justify-content:space-between;gap:10px;padding:13px 14px;font-size:13px;font-weight:650;color:#27272a}
+.pref-detail summary::-webkit-details-marker{display:none}
+.pref-detail .detail-toggle{color:#898990;display:inline-flex;align-items:center;transition:transform .18s ease}
+.pref-detail[open] .detail-toggle{transform:rotate(90deg)}
+.pref-detail .spacing-grid,.pref-detail .advanced-options{padding:3px 13px 13px;border-top:1px solid #ebebef}
+.pref-detail .spacing-row{min-height:46px}
+.pref-detail .spacing-row input[type="number"]{min-height:36px}
+.pref-detail-advanced{margin-top:16px}
+.pref-detail .pref-row{border:0;border-bottom:1px solid #f0f0f3;border-radius:0;padding:12px 4px;background:#fff}
+.pref-detail .pref-row:last-child{border:0}
+/* Four grades are textual and scan in one glance, without illustrative characters. */
+.rating-wrap{padding:14px;background:#f8f8fa;border:1px solid #e5e5eb;border-radius:14px}
+.rating-intro{display:block;margin-bottom:12px}
+.rating-intro strong{font-size:13px;color:#25252a}
+.rating-intro span{display:block;margin-top:3px;text-align:left;font-size:11px;color:#85858b}
+.rating-grid{grid-template-columns:repeat(4,minmax(0,1fr));gap:7px}
+.rating-button{min-height:66px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;padding:9px 5px;border:1px solid #dfe1e8;border-radius:10px;background:#fff;text-align:center;transition:border-color .15s,background-color .15s;box-shadow:none}
+.rating-button.grade-again,.rating-button.grade-easy{background:#fff}
+.rating-button strong,.rating-button.grade-again strong,.rating-button.grade-easy strong{color:#2c2c31;font-size:12px;font-weight:680}
+.rating-button small{color:#85858b;font-size:10px}
+.rating-button:hover{background:#f0f7ff;border-color:#007aff;transform:none}
+.rating-button:active{background:#e5f1ff}
+.rating-button kbd{display:none}
+.rating-confirm{padding:12px;background:#eaf3ff;border-radius:10px;color:#1765b4;font-size:12px;font-weight:480}
+/* Question surface: legible, fewer decorations, firm feedback. */
+.player-card{box-shadow:none;border:1px solid rgba(60,60,67,.14);border-radius:17px;padding:26px 27px}
+.option-select{text-align:left;transition:background-color .12s,border-color .12s;line-height:1.5}
+.option-select b{font-size:13px!important;color:#5e5e64!important}
+.correct-feedback{display:flex;align-items:flex-start;flex-direction:column;gap:4px;padding:13px 15px;line-height:1.48}
+.correct-feedback strong{font-weight:720}
+.correct-feedback span{font-weight:480;font-size:13px;color:inherit}
+.instant-explain{line-height:1.65;font-size:13px;background:#f6f8fc;color:#414750}
+.instant-explain strong{display:block;margin-bottom:4px;color:#1d4677}
+.explain-disclosure{margin-top:12px}
+.explain-disclosure summary{min-height:49px}
+.explain-disclosure summary:hover{background:#f4f8fc}
+.player-actions{margin-top:20px;gap:9px}
+.player-actions button{min-height:42px}
+.compliance{font-size:11px;line-height:1.5;color:#81818a}
+/* Keep active content high priority. */
+.quick-review{display:flex;align-items:center;justify-content:space-between;gap:10px;background:#eaf3ff;border:1px solid #ccddf5;border-radius:13px;padding:10px 13px;margin:18px 0}
+.quick-review>span{display:flex;align-items:center;gap:9px;font-size:13px;color:#1d5792}
+.quick-review>.small-btn{font-size:12px;display:flex;align-items:center;gap:4px;background:#fff;border-color:#cadeed}
+.quick-review .ui-icon{width:17px;height:17px}
+/* App should remain a simple Apple-like workspace. */
+.settings-gear{background:#e7e7eb!important;border:0!important}
+.study-action-icon{background:#eef4fc!important}
+.native-row-icon{background:#edf3fc!important}
+button:disabled{cursor:not-allowed}
+button:focus-visible,input:focus-visible,select:focus-visible,summary:focus-visible{outline:3px solid rgba(0,122,255,.45);outline-offset:3px}
+@media(min-width:751px){.practice-shell{max-width:800px}.player-title{font-size:22px}}
+@media(max-width:750px){
+ .rating-grid{grid-template-columns:repeat(4,minmax(0,1fr));gap:5px}
+ .rating-button{min-height:66px;padding:9px 3px}
+ .rating-button strong{font-size:10px!important}
+ .rating-button small{font-size:9px}
+ .player-card{padding:21px 16px}
+ .player-actions{position:sticky;bottom:0;background:rgba(255,255,255,.96);margin:18px -16px -21px;padding:12px 16px max(13px,env(safe-area-inset-bottom));border-top:1px solid #e5e5eb;border-radius:0 0 17px 17px;z-index:5;backdrop-filter:blur(12px)}
+ .player-actions button{min-height:44px}
+ .settings-panel{max-height:100dvh}
+ .pref-detail .spacing-grid{padding:3px 8px 10px}
+ .quick-review{flex-wrap:wrap}
+}
+@media(max-width:375px){.rating-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.rating-button{min-height:55px}.rating-button strong{font-size:12px!important}}
+
+/* v0.5 validation refinements */
+@media(min-width:751px){.mode-options{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.official-note{font-size:12px;color:#85858c;display:flex;align-items:center;gap:7px;margin:3px 0 0}
+.official-note .ui-icon{width:15px;height:15px}
+.rating-button.grade-again,.rating-button.grade-easy{border-color:#dedee4}
+@media(max-width:750px){
+ .player-actions{position:static;bottom:auto;z-index:auto;backdrop-filter:none;margin:18px 0 0;padding:14px 0 0;border-radius:0;border:0;border-top:1px solid #ebebef;background:transparent}
+ .rating-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:7px}
+ .rating-button{min-height:58px;padding:10px 5px}
+ .rating-button strong{font-size:12px!important}
+ .rating-button small{font-size:10px}
+ .option-select{font-size:14px}
+}
+
+.backup-options{padding:12px 14px 16px;border-top:1px solid #ebebef}
+.backup-options p{font-size:12px;line-height:1.5}
+.backup-options .inline-actions{display:flex;gap:8px;flex-wrap:wrap}
+.visually-hidden{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}

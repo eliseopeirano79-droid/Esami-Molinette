@@ -1,0 +1,32 @@
+{
+  "anki-1656582203452": {
+    "level": "high",
+    "title": "Affermazione assoluta non attendibile",
+    "why": "La risposta del mazzo dice “in tutti” i pazienti con malattia renale cronica dal terzo stadio. È una generalizzazione da non insegnare come regola clinica. Verificare PTH e contesto clinico."
+  },
+  "anki-1656582312869": {
+    "level": "high",
+    "title": "“Più frequente oggi” da contestualizzare",
+    "why": "La frequenza delle cause di AKI varia per epoca, popolazione e definizioni. La risposta su mezzi di contrasto non può essere presentata come dato epidemiologico universale attuale."
+  },
+  "anki-1656596688606": {
+    "level": "medium",
+    "title": "Soglia trapianto da verificare",
+    "why": "Criteri di lista e trapianto pre-emptive dipendono da programma, giurisdizione e valutazione clinica; non fissare una soglia universale da questo solo mazzo."
+  },
+  "anki-1656602341322": {
+    "level": "high",
+    "title": "Iter PSA obsoleto",
+    "why": "Un PSA in aumento non equivale automaticamente a biopsia “mapping” come primo atto. Servono valutazione individuale e percorso diagnostico moderno."
+  },
+  "anki-1656597405952": {
+    "level": "low",
+    "title": "Intervallo di riferimento incompleto",
+    "why": "Nel mazzo è indicato 135–142, ma un riferimento usato comunemente per la sodiemia è circa 135–145 mmol/L."
+  },
+  "anki-1656583759226": {
+    "level": "low",
+    "title": "Risposta combinata",
+    "why": "La risposta originale è a+c: alcuni quiz hanno alternative composte (a+b, a+c). Bisogna conservare fedelmente la struttura originale."
+  }
+}

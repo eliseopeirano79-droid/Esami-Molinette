@@ -1,0 +1,29 @@
+{
+  "exam_id": "addome",
+  "status": "awaiting_user_verified_criteria",
+  "is_official": false,
+  "source": null,
+  "verified_on": null,
+  "components": [
+    {
+      "subject": "nefro",
+      "question_count": null,
+      "question_type": "single_choice",
+      "points_correct": null,
+      "points_wrong": null,
+      "points_blank": null
+    },
+    {
+      "subject": "uro",
+      "question_count": null,
+      "question_type": "single_choice",
+      "points_correct": null,
+      "points_wrong": null,
+      "points_blank": null
+    }
+  ],
+  "duration_seconds": null,
+  "passing_threshold": null,
+  "grade_scale": null,
+  "notes": "Popolare soltanto dopo aver raccolto le regole reali dalla persona che conosce l'esame."
+}
